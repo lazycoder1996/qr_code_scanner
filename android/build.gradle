@@ -38,8 +38,9 @@ android {
         multiDexEnabled true
     }
 
+    // For Kotlin projects
     kotlinOptions {
-        jvmTarget = '11'
+        jvmTarget = "1.8"
     }
 
     compileOptions {
